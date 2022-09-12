@@ -14,7 +14,7 @@ In terms of what we are looking for while the test can be “solved” in under 
 * Optimized code in terms of performance and speed
 * Program setup & design
 * Management of data inputs and outputs
-* Good documention and instructions to run your code
+* Good documentation and instructions to run your code
 * Code being robust and extendable potentially beyond what you write for the assignment
 * Test-driven development focused code
 * Analysis of output and key findings (and/or code to analyze data)
