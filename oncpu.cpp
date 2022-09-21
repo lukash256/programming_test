@@ -88,7 +88,7 @@ class Agent {
 	}
     
     friend std::ostream& operator<<(std::ostream& out, Agent& agent) {
-		if(agent.curLineNum == 1)
+		if(out.tellp() == 0)
 			out << agent.headLine;
 		
 		std::string breed = (agent.pBreed->Agent_Breed == Breed::C) ? "Breed_C," : "Breed_NC,";
